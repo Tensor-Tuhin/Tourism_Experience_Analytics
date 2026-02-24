@@ -4,7 +4,7 @@ An end-to-end Machine Learning application that analyzes tourist behavior, predi
 The project integrates regression, classification, and recommendation systems into a single deployment-ready solution.
 
 
-Project Overview
+Project Overview:
 
 This system performs:
   - Rating Prediction (Regression)
@@ -15,11 +15,10 @@ This system performs:
     Model used: CatBoost Classifier.
   - Attraction Recommendation
     Item-based collaborative filtering recommending attractions using similarity between user–attraction interactions.
-
 The repository includes trained models and saved artifacts, allowing the application to run without retraining.
 
 
-Tech Stack
+Tech Stack:
 
 Python
 Pandas, NumPy
@@ -29,7 +28,7 @@ Joblib
 Streamlit
 MLFlow
 
-Project Structure
+Project Structure:
 
 Tourism_Experience_Analytics/
 │
@@ -41,7 +40,7 @@ Tourism_Experience_Analytics/
 └── README.md
 
 
-How to Run the Streamlit app
+How to Run the Streamlit app:
 
 pip install -r requirements.txt
 streamlit run app.py
