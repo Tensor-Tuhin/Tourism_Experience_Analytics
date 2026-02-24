@@ -15,6 +15,7 @@ The project integrates regression, classification, and recommendation systems in
     Model used: CatBoost Classifier.
     - Attraction Recommendation
     Item-based collaborative filtering recommending attractions using similarity between user–attraction interactions.
+
   The repository includes trained models and saved artifacts, allowing the application to run without retraining.
 
 
@@ -28,6 +29,7 @@ The project integrates regression, classification, and recommendation systems in
     - Joblib
     - Streamlit
     - MLFlow
+    - Scikit-Learn
 
 
 - How to Run the Streamlit app:
